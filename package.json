@@ -1,0 +1,9 @@
+{
+  "name": "step-load",
+  "description": "Load testing with light workflows",
+  "author": "Dan Lash <danlash@gmail.com>",
+  "dependencies": {
+    "optimist": "0.2.x"
+  },
+  "engine": "node >= 0.10.3"
+}

@@ -20,5 +20,8 @@ while (true) {
   flow.run(config).then(function(){ currentOutstandingRequests--; });
 
   if (currentOutstandingRequests >= config.maximumOutstandingRequests)
+  {
+    //sleep is not an option
     //recursive settimeout instead of while loop
+  }
 }
